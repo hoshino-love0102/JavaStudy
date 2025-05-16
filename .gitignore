@@ -1,5 +1,11 @@
+# Java 관련
 *.class
 /out/
-/.idea/
 /target/
-*.iml
+
+# IntelliJ IDEA 관련
+.idea/
+/*.iml
+
+# macOS 시스템 파일
+.DS_Store
