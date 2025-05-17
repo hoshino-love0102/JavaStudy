@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class RLE {
 
     public static String runLengthEncode(String input) {
@@ -25,11 +23,9 @@ public class RLE {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("문자열을 입력: ");
-        String input = scanner.nextLine();
-
+        String input = "aaabbccccd";
         String encoded = runLengthEncode(input);
+        System.out.println("입력 문자열: " + input);
         System.out.println("압축 결과: " + encoded);
     }
 }
