@@ -1,3 +1,5 @@
+package com.example.bcrypt;
+
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.util.Scanner;
