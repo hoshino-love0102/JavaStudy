@@ -27,7 +27,7 @@ public class SyncExample implements Runnable {
             try {
                 Thread.sleep(300);
             } catch (InterruptedException e) {
-                System.out.println(threadName + " 인터럽트 발생!");
+                System.out.println(threadName + " 인터럽트 발생");
             }
         }
     }
