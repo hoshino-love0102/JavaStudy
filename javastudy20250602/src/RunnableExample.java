@@ -12,7 +12,7 @@ public class RunnableExample implements Runnable {
             try {
                 Thread.sleep(400);
             } catch (InterruptedException e) {
-                System.out.println(taskName + " 인터럽트 발생!");
+                System.out.println(taskName + " 인터럽트 발생");
             }
         }
     }
