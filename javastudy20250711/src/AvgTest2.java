@@ -18,7 +18,7 @@ public class AvgTest2 {
         Avg2 student2 = new Avg2();
 
         student1.name = "김철수";
-        student2.avg = "김영희";
+        student2.name = "김영희"; // avg 대신 name에 문자열 할당해야 함
 
         String st1_avg = student1.average(70, 80);
         String st2_avg = student2.average(80, 90);
