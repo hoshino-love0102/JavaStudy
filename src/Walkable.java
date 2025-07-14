@@ -1,2 +1,3 @@
-public class Walkable {
+interface Walkable {
+    void walk();
 }
