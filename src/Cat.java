@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+class Cat extends Animal implements Walkable {
+    Cat(String name) {
+        super(name);
+    }
 
-public class Cat {
+    @Override
+    void makeSound() {
+        System.out.println(name + " says: Meow!");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println(name + " is gracefully walking.");
+    }
 }
