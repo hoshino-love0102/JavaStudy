@@ -1,6 +1,4 @@
 ### IntelliJ IDEA ###
-*.iml
-.idea/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -29,7 +27,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-### Java 관련 ###
-*.class
-out/
